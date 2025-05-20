@@ -42,3 +42,23 @@ This project is a Convolutional Neural Network (CNN) model built with TensorFlow
 ## 💾 Save the Model
 
 - Save the trained model to a file:  
+
+- This allows reusing the model later without retraining.
+
+---
+
+## 🖼️ Predict on New Images
+
+- Define a function to load and preprocess a new image.
+- Resize the image to **100x100 pixels** and normalize pixel values.
+- Predict the class using the trained model.
+- If `prediction > 0.5`, classify as **Dog 🐶**; otherwise, classify as **Cat 🐱**.
+- Print and return the predicted class.
+
+---
+
+## 🧪 Example Usage
+
+```python
+result = predict_image("path/to/your/image.jpg")
+print("The image is classified as:", result)
