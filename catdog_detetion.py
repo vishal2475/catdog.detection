@@ -51,3 +51,4 @@ def predict_image(img_path):
     prediction = model.predict(img_array)
     if prediction[0][0] > 0.5:
         print("Predicted: Dog 🐶")
+        ###
