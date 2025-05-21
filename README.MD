@@ -4,7 +4,7 @@ This project is a Convolutional Neural Network (CNN) model built with TensorFlow
 
 ---
 
-## 📁 Prepare Image Data
+##  Prepare Image Data
 
 - Load training and validation images from their folders.
 - Resize all images to **100x100** pixels.
@@ -13,7 +13,7 @@ This project is a Convolutional Neural Network (CNN) model built with TensorFlow
 
 ---
 
-## 🧠 Build the CNN Model
+##  Build the CNN Model
 
 - Use a `Sequential` model.
 - Add a `Conv2D` layer with **16 filters** and **ReLU** activation to extract features.
@@ -24,7 +24,7 @@ This project is a Convolutional Neural Network (CNN) model built with TensorFlow
 
 ---
 
-## ⚙️ Compile the Model
+##  Compile the Model
 
 - Use the **Adam** optimizer.
 - Use **binary cross-entropy** as the loss function.
@@ -32,14 +32,14 @@ This project is a Convolutional Neural Network (CNN) model built with TensorFlow
 
 ---
 
-## 🎯 Train the Model
+##  Train the Model
 
 - Train the model on the training data for **5 epochs**.
 - Validate the model on the validation data during training.
 
 ---
 
-## 💾 Save the Model
+##  Save the Model
 
 - Save the trained model to a file:  
 
@@ -47,17 +47,17 @@ This project is a Convolutional Neural Network (CNN) model built with TensorFlow
 
 ---
 
-## 🖼️ Predict on New Images
+##  Predict on New Images
 
 - Define a function to load and preprocess a new image.
 - Resize the image to **100x100 pixels** and normalize pixel values.
 - Predict the class using the trained model.
-- If `prediction > 0.5`, classify as **Dog 🐶**; otherwise, classify as **Cat 🐱**.
+- If `prediction > 0.5`, classify as **Dog **; otherwise, classify as **Cat **.
 - Print and return the predicted class.
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 ```python
 result = predict_image("path/to/your/image.jpg")
